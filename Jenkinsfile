@@ -8,8 +8,8 @@ pipeline {
        // }
         stage('Build') {
             steps {
-		sh 'cd sparkjava-war-example'
                 sh 'mvn clean package'
+
             }
         }
         stage('Deploy') {
