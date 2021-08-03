@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deploy') {
             steps{
-                  sh 'cp -f target/sparkjava-hello-world-1.0.war /usr/java/apache-tomcat-8.5.69/webapps'
+                  sh 'sudo cp -f target/sparkjava-hello-world-1.0.war /usr/java/apache-tomcat-8.5.69/webapps'
         }    
         }
 }
