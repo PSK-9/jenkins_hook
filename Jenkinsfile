@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Git-Clone') {
+//        stage('Git-Clone') {
     //        steps{
       //          git url:'https://github.com/kliakos/sparkjava-war-example.git'
            // }
